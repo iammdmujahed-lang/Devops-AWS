@@ -1,43 +1,133 @@
-# Devops-AWS — Repository Shortcuts
+# 🚀 DevOps AWS Repository
 
-> Quick links to each topic folder in this repository.  
-> Click a link to jump directly to the topic folder on GitHub.
+A well-structured **DevOps & AWS learning repository** containing concepts, notes, tasks, and hands-on practice for:
+- AWS Core Services
+- DevOps Tools
+- Linux
+- Automation & Scripting
+- Monitoring & Networking
 
----
-
-## Table of Contents
-- [App server - Web server](./DEVOPS_AWS-Repo/App%20server%20-%20Web%20server/) — Web vs App server concepts, examples (Apache, Tomcat).
-- [Bash-Scripting](./DEVOPS_AWS-Repo/Bash-Scripting/) — Shell scripts, automation examples and common snippets.
-- [EC2](./DEVOPS_AWS-Repo/EC2/) — Amazon EC2 concepts, instance types, AMIs, commands and best practices.
-- [Git-Github](./DEVOPS_AWS-Repo/Git-Github/) — Git basics, workflow, branching, PRs, and GitHub tips.
-- [R53-CDN](./DEVOPS_AWS-Repo/R53-CDN/) — Route 53 DNS and CloudFront CDN configuration and use-cases.
-- [S3](./DEVOPS_AWS-Repo/S3/) — S3 buckets, lifecycle, versioning, storage classes and examples.
-- [Terraform](./DEVOPS_AWS-Repo/Terraform/) — Terraform examples, modules, state management, and workflows.
-- [VPC](./DEVOPS_AWS-Repo/VPC/) — VPC design, subnets, routing, security groups, NAT, and best practices.
-- [aws-devops-task](./DEVOPS_AWS-Repo/aws-devops-task/) — Sample DevOps tasks on AWS (CI/CD, infra automation, monitoring).
-- [linux-documents](./DEVOPS_AWS-Repo/linux-documents/) — Linux fundamentals for DevOps: file system, services, networking.
+This repository follows a **hierarchical structure** for easy navigation and professional presentation.
 
 ---
 
-## Quick links (same list, tidy)
-- **App server - Web server**:  `./DEVOPS_AWS-Repo/App%20server%20-%20Web%20server/`  
-- **Bash-Scripting**: `./DEVOPS_AWS-Repo/Bash-Scripting/`  
-- **EC2**: `./DEVOPS_AWS-Repo/EC2/`  
-- **Git-Github**: `./DEVOPS_AWS-Repo/Git-Github/`  
-- **R53-CDN**: `./DEVOPS_AWS-Repo/R53-CDN/`  
-- **S3**: `./DEVOPS_AWS-Repo/S3/`  
-- **Terraform**: `./DEVOPS_AWS-Repo/Terraform/`  
-- **VPC**: `./DEVOPS_AWS-Repo/VPC/`  
-- **aws-devops-task**: `./DEVOPS_AWS-Repo/aws-devops-task/`  
-- **linux-documents**: `./DEVOPS_AWS-Repo/linux-documents/`  
+## 📂 Repository Structure (Quick Navigation)
+
+### 🖥️ Application & Server Concepts
+- 📁 [App Server – Web Server](./App%20server%20-%20Web%20server)
+  - Web Server vs Application Server concepts
+  - Real-world usage and differences
 
 ---
 
-## How to update this README
-To edit descriptions or add more shortcuts, update this file and push:
+### 🐧 Linux & Automation
+- 📁 [Linux Documents](./linux-documents)
+  - Linux basics
+  - Important commands
+  - File system & permissions
+  - Process management
 
-```bash
-# in your local repo
-git add README.md
-git commit -m "Update README: add shortcuts to topic folders"
-git push origin main
+- 📁 [Bash Scripting](./Bash-Scripting)
+  - Shell scripting fundamentals
+  - Automation scripts
+  - Loops, conditions, functions
+
+---
+
+### ☁️ AWS Core Services
+
+#### Compute
+- 📁 [EC2](./EC2)
+  - Instance types
+  - AMI
+  - Security Groups
+  - Key pairs
+
+#### Storage
+- 📁 [S3](./S3)
+  - Buckets & objects
+  - Storage classes
+  - Lifecycle rules
+  - Static website hosting
+
+- 📁 [RDS](./RDS)
+  - Managed relational databases
+  - Multi-AZ
+  - Read replicas
+  - Backup & recovery
+
+#### Networking
+- 📁 [VPC](./VPC)
+  - Subnets (public & private)
+  - Route tables
+  - Internet & NAT Gateway
+  - Security Groups & NACLs
+
+- 📁 [Load Balancer](./Load%20Balancer)
+  - ALB, NLB, GWLB
+  - Traffic distribution
+  - High availability
+
+- 📁 [Route 53 & CDN](./R53-CDN)
+  - DNS routing
+  - CloudFront CDN
+  - Low latency delivery
+
+---
+
+### 📊 Monitoring & Observability
+- 📁 [CloudWatch – Monitoring](./cloud%20watch-%20monitoring)
+  - Metrics & logs
+  - Alarms
+  - Dashboards
+  - System monitoring
+
+---
+
+### 🔧 DevOps Tools & Practices
+- 📁 [Git & GitHub](./Git-Github)
+  - Version control basics
+  - Git commands
+  - Collaboration workflow
+
+- 📁 [AWS DevOps Tasks](./aws-devops-task)
+  - Hands-on assignments
+  - Real-time AWS scenarios
+  - Practice tasks
+
+---
+
+## 🧠 Learning Path (Recommended Order)
+
+1. Linux Documents  
+2. Bash Scripting  
+3. Git & GitHub  
+4. EC2  
+5. VPC  
+6. S3  
+7. RDS  
+8. Load Balancer  
+9. Route 53 & CDN  
+10. CloudWatch Monitoring  
+11. AWS DevOps Tasks  
+
+---
+
+## 🎯 Purpose of This Repository
+- Build **strong DevOps fundamentals**
+- Practice **AWS services hands-on**
+- Prepare for **DevOps & Cloud interviews**
+- Maintain a **professional GitHub portfolio**
+
+---
+
+## ✅ Final Note
+This repository is structured to reflect **real-world DevOps architecture and workflows**, making it suitable for:
+- Beginners
+- Job seekers
+- Working professionals
+
+---
+
+### ✍️ Author
+Maintained for continuous learning and DevOps growth.
